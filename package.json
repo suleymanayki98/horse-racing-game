@@ -1,0 +1,29 @@
+{
+  "name": "horse-racing-game",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest",
+    "test:ui": "vitest --ui",
+    "test:coverage": "vitest --coverage",
+    "test:e2e": "cypress open",
+    "test:e2e:headless": "cypress run"
+  },
+  "dependencies": {
+    "vue": "^3.3.4",
+    "vuex": "^4.1.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.5.0",
+    "@vue/test-utils": "^2.4.1",
+    "@vitest/coverage-v8": "^1.0.4",
+    "@vitest/ui": "^1.0.4",
+    "cypress": "^13.6.0",
+    "jsdom": "^23.0.1",
+    "vite": "^5.0.0",
+    "vitest": "^1.0.4"
+  }
+}
